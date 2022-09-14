@@ -167,6 +167,8 @@ header {
 
 .three_one {
     background-image: url(/img/beautiful-view-desert-clear-blue-sky-captured-oostkapelle-netherlands.jpg);
+    background-color: var(--Orange);
+    background-blend-mode: soft-light;
     background-size: cover;
     
     height: 50%;

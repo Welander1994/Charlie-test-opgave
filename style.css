@@ -1,0 +1,221 @@
+:root {
+    --Orange: #F36425;
+    --Dark-gray: #343539;
+    --Light-gray: #A9AAAE;
+}
+
+body {
+    background-image: url(/img/charlie.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.landing_page_1 {
+    height: 150vh;
+    width: 100vw;
+    background-image: url(/img/axelborg-towers-modern-architecture.jpg);
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_menu {
+    text-decoration: none;
+    margin-top: 8vh;
+    margin-left: 10.5vw;
+    width: 90vw;
+    display: flex;
+    gap: 3.5vw;
+    text-transform: uppercase;
+}
+
+.header_menu a {
+    color: white;
+    
+}
+
+.not_active {
+    text-decoration: none;
+}
+
+.menu_active {
+    text-decoration: underline;
+    text-decoration-color: var(--Orange);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 1rem;
+}
+
+.header_menu a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--Orange);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 1rem;
+}
+
+.trans {
+    transform: rotate(90deg);
+    margin-top: 6vh;
+
+
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.trans span {
+    color: var(--Orange);
+}
+
+.landing_container {
+    margin-left: 10.5vw;
+    width: 85vw;
+    height: 75vh;
+    display: flex;
+    
+}
+
+.landing_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 6vh;
+
+    width: 25vw;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.landing_content h1 {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    width: 15vw;
+    margin: 0;
+    font-weight: 300;
+    
+}
+
+.landing_content span {
+    margin-left: 5.5vw;
+    font-size: 3rem;
+}
+
+
+.landing_page_2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 100vh;
+    
+}
+
+.one {
+  width: 27vw;
+  display: flex;
+  justify-content: center;
+
+}
+
+.one span {
+    color: var(--Orange);
+    font-size: 5rem;
+}
+
+#turned {
+    color: #ffffff;
+    transform: rotate(90deg);
+}
+
+.two {
+    background-color: #F36425;
+    width: 24vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding-top: 8vh;
+    color: #ffffff;
+}
+
+.two h1 {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 75%;
+}
+
+.two p {
+    max-width: 75%;
+}
+
+.three {
+    max-width: 49vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.three_one {
+    background-image: url(/img/beautiful-view-desert-clear-blue-sky-captured-oostkapelle-netherlands.jpg);
+    background-size: cover;
+    
+    height: 50%;
+}
+
+.three_two {
+    height: 50%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;
+
+}
+
+.three_two h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    max-width: 55%;
+    padding-top: 7%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: var(--Dark-gray);
+
+}
+
+.three_two p {
+    margin-bottom: 5%;
+    font-weight: 600;
+    color: var(--Light-gray)
+}
+
+.three_two a {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding-top: 4%;
+    text-decoration: none;
+    color: #343539;
+    font-weight: 600;
+    
+}
+
+.landing_page_3 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 200vh;
+    
+}

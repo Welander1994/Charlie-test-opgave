@@ -214,8 +214,94 @@ header {
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: absolute;
     top: 200vh;
     
+}
+
+.landing_page_3 h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    padding-left: 13vw;
+    padding-top: 1.5vw;
+    text-transform: uppercase;
+    color: var(--Dark-gray);
+}
+
+.landing_page_3 p {
+    padding: 0vw 13vw;
+    columns: 2;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--Light-gray);
+}
+
+.landing_page_3_img {
+    background-image: url(/img/low-angle-greyscale-building-with-modern-brutalist-architecture-sunlight.jpg);
+    transform: scaleX(1);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left:0;
+    top: 68vh;
+    z-index: -8;
+}
+
+.landing_page_4 {
+    height: 122vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 300vh;
+    
+    
+}
+
+.top {
+    display: flex;
+    padding-left: 13vw;
+}
+
+.top_left {
+    background-color: var(--Orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    flex-direction: row;
+    margin-top: 12.5vh;
+    width: 30vw;
+    height: 55vh;
+}
+
+.top_left h1 {
+    color: #ffffff;
+    max-width: 50%;
+}
+
+.top_right {
+    background-image: url(/img/closeup-profile-bearded-man-with-tattoo-his-neck-sunglasses-wearing-military-shirt-studio-photo-against-dark-wall.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 12.5vh;
+    width: 30vw;
+    height: 55vh;
+}
+
+.bottom {
+    background-color: #F36425;
+    margin-left: 13vw;
+    width: 87vw;
+    height: 65vh;
+    
+}
+
+.bottom p {
+    color: #ffffff;
+    width: 80%;
+    gap: 5vw;
+    columns: 2;
+    padding: 10vh 5vw 0 5vw;
 }

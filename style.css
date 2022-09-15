@@ -102,13 +102,14 @@ header {
     text-underline-offset: 1rem;
 }
 
-.trans {
+.trans p {
     transform: rotate(90deg);
     margin-top: 6vh;
 
 
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
+
     color: #ffffff;
 }
 
@@ -505,7 +506,7 @@ header {
 footer {
     position: absolute;
     top: 614vh;
-    height: 50vh;
+    height: 40vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -539,4 +540,157 @@ footer {
 
 .footer_columns a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+    .trans {
+        position: absolute;
+        top: 25vw;
+        right: 1vh;
+    }
+
+    .landing_content {
+        width: 70%;
+    }
+
+    .one {
+        display: none;
+    }
+
+    .landing_page_2 {
+        flex-direction: column;
+    }
+
+    .two,
+    .three {
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    .three_two h1,
+    .three_two p {
+        max-width: 100%;
+        width: 95%;
+    }
+
+
+    .landing_page_3 {
+        top: 230vh;
+        height: 170vh;
+        background-color: #F36425;
+    }
+
+    .landing_page_3 p {
+        columns: 1;
+    }
+
+    .landing_page_3 h1 {
+        color: #ffffff;
+    }
+
+    .landing_page_4 {
+        top: 387.4vh;
+        height: 170vh;
+
+    }
+
+
+
+    .top {
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+    .top_right {
+        width: 100%;
+        height: 50vh;
+        margin-top: 0;
+    }
+
+    .top_left {
+        width: 100vw;
+    }
+
+    .bottom {
+        width: 100vw;
+        height: 200vh;
+        margin-left: 0;
+    }
+
+    .landing_page_5 {
+        position: absolute;
+        top: 628vh;
+        ;
+        height: 40vh;
+    }
+
+    .page_5_content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .page_5_content form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page_5_content input,
+    #email {
+        width: 80vw;
+        margin: 5px;
+    }
+
+    .landing_page_6 {
+        top: 603vh;
+    }
+
+    .page_6_top {
+        display: none;
+    }
+
+    .page_6_bottom {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .page_6_left {
+        width: 100vw;
+    }
+
+    .page_6_left p {
+        max-width: 90vw;
+    }
+
+    .page_6_right_top {
+        width: 100vw;
+    }
+
+    .page_6_right_bottom {
+        width: 100vw;
+    }
+
+    .page_6_right_bottom p {
+        max-width: 90vw;
+    }
+
+
+    footer {
+        top: 775vh;
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .links {
+
+        width: 78%;
+        margin-left: 13vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-around;
+
+    }
+
+
+
 }

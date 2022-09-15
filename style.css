@@ -19,6 +19,12 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    font-weight: 200;
+    font-size: 16px;
+
+}
+
 #myBtn {
     display: flex;
     transition: .5s ease-in;
@@ -232,7 +238,7 @@ header {
 
 .three_two p {
     margin-bottom: 5%;
-    font-weight: 600;
+    width: 50%;
     color: var(--Light-gray)
 }
 
@@ -243,7 +249,7 @@ header {
     padding-top: 4%;
     text-decoration: none;
     color: #343539;
-    font-weight: 600;
+
 
 }
 
@@ -269,8 +275,8 @@ header {
 .landing_page_3 p {
     padding: 0vw 13vw;
     columns: 2;
-    font-size: 1.2rem;
-    font-weight: 600;
+
+
     color: var(--Light-gray);
 }
 
@@ -386,7 +392,7 @@ header {
 
 #submit {
     color: #A9AAAE;
-    font-weight: 600;
+
     border: #A9AAAE solid 3px;
     border-radius: 2px;
     background-color: transparent;
@@ -451,7 +457,7 @@ header {
 }
 
 .page_6_left p {
-    font-weight: 400;
+
     max-width: 70%;
     padding: 0 3vw;
 
@@ -476,7 +482,7 @@ header {
 .page_6_right_bottom {
     height: 50%;
     width: 100%;
-    color: var(--Dark-gray);
+    color: var(--light-gray);
 }
 
 .page_6_right_bottom h2 {
@@ -490,7 +496,7 @@ header {
 }
 
 .page_6_right_bottom p {
-    font-weight: 400;
+    color: var(--Light-gray);
     max-width: 70%;
     padding: 0 3vw;
 

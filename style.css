@@ -279,7 +279,7 @@ header {
     columns: 2;
 
 
-    color: #ffffff;
+    color: var(--light-gray);
 }
 
 .landing_page_3_img {
